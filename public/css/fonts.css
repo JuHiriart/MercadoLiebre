@@ -1,0 +1,263 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #EAC926;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-button{
+    height: 30px;
+    width: 35px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+}
+
+.bottom-nav{
+    display: none;
+}
+
+.hamburger-menu{
+    background-color: #1259c3;;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 25px;
+}
+
+.hamburger-menu a{
+    color: white;
+    font-size: x-large;
+}
+
+
+.logo{
+    width: 40%;
+}
+
+#top-text{
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+
+
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebebeb;
+    padding: 0px;
+    margin: 0px;
+    color: #666;
+}
+
+main img{
+    width: 95vw;
+}
+
+.img-banner{
+    width: 100%;
+}
+
+.product-description{
+    color: black;
+    background-color: white;
+    position: relative;
+    padding: 5vw;
+    margin-bottom: 10px;
+
+}
+
+.item-truck{
+    color: #39b54a;
+    background-color: white;
+    border: 2px solid #39b54a;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    top: -18px;
+    right: 20px;
+}
+
+.middle-nav{
+    text-align: center;
+}
+
+.oferta{
+    font-size: 16px;
+    color: #39b54a;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    margin: 10vw 0 0 0;
+}
+
+.bold{
+    color :red
+}
+
+p{
+    font-size: 12px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+h5{
+    font-size: 18px;
+    margin: 0px;
+}
+
+
+
+
+footer{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+    border: solid 5px #ebebeb;
+}
+
+.icon{
+    size: 2em;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.elemento-foot{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 80vw;
+
+}
+
+.footer-title{
+    margin: .2em;
+}
+
+.foot-icon{
+    font-size: x-large;
+    color:#1259c3
+}
+
+
+
+
+@media (min-width: 769px){
+    .bottom-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: small;
+        align-items: baseline;
+        padding-top: 20px;
+        line-height: 20px;
+    }
+
+    .bottom-nav a{
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .product{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 45%;
+        margin: 5px;
+    }
+
+    main img{
+        width: 100%;
+    }
+
+    main{
+        padding-bottom: 30px;
+        display: flexbox;
+        flex-direction: column;
+    }
+
+    .tablet{
+        display: flex;
+    }
+    .search-bar-item{
+        height: 30px;
+        border-radius: 10px;
+        width: 30vw;
+    }
+
+    .product-window{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width:1281px){
+
+}
+
+
+
+
+
+/*
+Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
