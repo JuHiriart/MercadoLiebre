@@ -41,7 +41,7 @@ header{
 }
 
 .hamburger-menu{
-    background-color: #1259c3;;
+    background-color: #1259c3;
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -57,6 +57,10 @@ header{
 
 .logo{
     width: 40%;
+}
+
+.logo1{
+    width: 100%;
 }
 
 #top-text{
@@ -97,7 +101,7 @@ main h3{
     color: black;
     background-color: white;
     position: relative;
-    padding: 5vw;
+    padding: 5%;
     margin-bottom: 10px;
 
 }
@@ -117,6 +121,11 @@ main h3{
     right: 20px;
 }
 
+.item-truck:hover{
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
 .middle-nav{
     text-align: center;
 }
@@ -132,7 +141,7 @@ h4{
     font-size: 16px;
     font-weight: 500;
     color: #666;
-    margin: 10vw 0 0 0;
+    margin: 10% 0 0 0;
 }
 
 .bold{
@@ -181,7 +190,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-    width: 80vw;
+    width: 50%;;
 
 }
 
@@ -220,7 +229,7 @@ footer{
 
     .product{
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        width: 45%;
+        width: 30%;
         margin: 5px;
     }
 
@@ -253,12 +262,25 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .elemento-foot{
+        
+        width: 30%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 60px;
+        flex-wrap: wrap;
+    }
 }
 
 @media (min-width:1281px){
 
     .product{
-        width: 30%;
+        width: 20%;
         margin: 7px;
     }
 

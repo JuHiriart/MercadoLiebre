@@ -1,0 +1,89 @@
+main div{
+    width: 100%;
+}
+
+main h1{
+    font-family: 'Roboto serif', serif;
+    font-size: xx-large;
+}
+
+main input{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signInBox {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 100%;
+    background-color: #EAC926; 
+    justify-content: space-evenly;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ 
+main .forms label{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .forms input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    width: 80%;
+    height: 35px;
+    border: none;
+}
+
+main .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: no-wrap;
+}
+
+main label{
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+main #gender{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+}
+
+main .btn{
+    margin: 20px;
+}
+
+main input[type="button"]{
+    background-color: #1259c3;
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    font-weight: 600;
+    border: none;
+}
+
+main{
+    display: block;
+}
+
+@media (min-width: 769px){
+
+    .signInBox{
+        width: 767px;
+    }
+
+}

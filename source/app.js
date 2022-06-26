@@ -17,3 +17,11 @@ app.use(express.static(public));                                          //teng
 app.get('/', function (req, res){
     res.sendFile(path.resolve(__dirname, 'views/home.html'));
 })
+
+app.get('/signin', function (req, res){
+    res.sendFile(path.resolve(__dirname, 'views/signin.html'));
+})
+
+app.get('/login', function (req, res){
+    res.sendFile(path.resolve(__dirname, 'views/login.html'));
+})
